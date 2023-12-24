@@ -19,17 +19,17 @@ class About extends Component {
 
     return (
       <div>
-        <h1>About Class Component</h1>
+       
         <div>
-          LoggedIn User
+          Logged In User
           <UserContext.Consumer>
             {({ loggedInUser }) => (
               <h1 className="text-xl font-bold">{loggedInUser}</h1>
             )}
           </UserContext.Consumer>
         </div>
-        <h2>This is Namaste React Web Series</h2>
-        <UserClass name={"First"} location={"Dehradun Class"} />
+       
+        <UserClass name={"First"} location={"itanagar"} />
       </div>
     );
   }

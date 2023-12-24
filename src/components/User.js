@@ -13,8 +13,8 @@ const User = ({ name }) => {
       <h1>Count = {count}</h1>
       <h1>Count2 = {count2}</h1>
       <h2>Name: {name}</h2>
-      <h3>Location: Dehradun</h3>
-      <h4>Contact: @akshaymarch7</h4>
+      <h3>Location: Itanagar</h3>
+      <h4>Contact: srishtibkma@gmail.com</h4>
     </div>
   );
 };
